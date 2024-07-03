@@ -1,6 +1,7 @@
  $(document).ready(function () {
 
  	// script for smooth scrolling //
+  //DOM loading//
  	jQuery(document).ready(function ($) {
  		$(".scroll ").click(function (event) {
  			event.preventDefault();
@@ -21,7 +22,7 @@
  			 easingType: 'linear' 
  		 };
  		 */
-
+//plugin
  		$().UItoTop({
  			easingType: 'easeOutQuart'
  		});
